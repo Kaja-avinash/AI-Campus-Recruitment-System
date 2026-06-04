@@ -24,6 +24,47 @@ This system revolutionizes campus recruitment with **real AI-powered resume anal
 
 ---
 
+## 💻 Source Code
+
+GitHub Repository:
+https://github.com/Kaja-avinash/AI-Campus-Recruitment-System
+
+---
+
+## 🌐 Live Deployment
+
+### Live Application
+Frontend: https://ai-campus-recruitment-system.onrender.com
+
+### API Services
+Backend API: https://ai-campus-backend-g4i8.onrender.com
+
+AI Resume Analysis Service: https://ai-campus-ai-service.onrender.com
+
+### Health Checks
+Backend Health:
+https://ai-campus-backend-g4i8.onrender.com/api/health
+
+AI Service Health:
+https://ai-campus-ai-service.onrender.com/health
+
+---
+
+## ☁️ Production Deployment
+
+The system is fully deployed and accessible online.
+
+| Service | Status |
+|----------|----------|
+| Frontend | ✅ Live |
+| Backend API | ✅ Live |
+| AI Resume Analysis Service | ✅ Live |
+| MongoDB Atlas | ✅ Connected |
+
+No local installation is required for evaluation, testing, or demonstration.
+
+---
+
 ## 🏗️ Architecture
 
 ```
@@ -49,7 +90,38 @@ This system revolutionizes campus recruitment with **real AI-powered resume anal
 
 ---
 
+## ☁️ Cloud Architecture
+
+```text
+Frontend (Render Static Site)
+        ↓
+Backend API (Render Web Service)
+        ↓
+AI Resume Analysis Service (Render Web Service)
+        ↓
+MongoDB Atlas
+```
+
+---
+
 ## ✨ Features
+
+---
+
+## 🎯 Key Highlights
+
+- Full Stack AI-Powered Recruitment Platform
+- Cloud-Deployed Architecture (Render + MongoDB Atlas)
+- Automated Resume Screening
+- AI-Based Candidate Ranking
+- Recruiter Dashboard with Applicant Tracking
+- Student Dashboard with Job Matching
+- Resume Analysis and Skill Gap Detection
+- RESTful API Architecture
+- Secure JWT Authentication
+- Responsive Modern User Interface
+
+---
 
 ### For Students
 - 📝 Register & upload resume (PDF)
@@ -157,6 +229,44 @@ REACT_APP_API_URL=http://localhost:5000
 
 ---
 
+---
+
+## 🔄 Application Workflow
+
+### Student Workflow
+
+1. Register and create an account
+2. Upload resume (PDF/DOCX)
+3. Browse available job opportunities
+4. Apply to desired positions
+5. Receive AI-generated match scores
+6. Track application progress
+
+### Recruiter Workflow
+
+1. Create recruiter account
+2. Post job openings
+3. Review applicant pool
+4. Analyze resumes using AI
+5. Compare candidate scores
+6. Shortlist or reject applicants
+
+### System Workflow
+
+Student Resume
+↓
+Resume Parsing
+↓
+Skill Extraction
+↓
+Job Requirement Matching
+↓
+Score Calculation
+↓
+Candidate Ranking
+
+---
+
 ## 📊 Tech Stack
 
 ### Backend (Node.js)
@@ -176,11 +286,12 @@ REACT_APP_API_URL=http://localhost:5000
 
 ### AI Service (Python)
 - FastAPI 0.109.2 - REST API framework
-- spaCy 3.7.4 - NLP library
-- sentence-transformers 2.3.1 - Semantic similarity
-- PyMuPDF 1.23.22 - PDF parsing
+- pypdf - PDF text extraction
+- pdfplumber - Advanced PDF parsing
 - python-docx 1.1.0 - DOCX parsing
-- scikit-learn 1.4.0 - ML utilities
+- rapidfuzz - Skill similarity matching
+- python-dotenv - Environment management
+- httpx - HTTP client utilities
 
 ### Database
 - MongoDB Atlas - Cloud database
@@ -291,12 +402,64 @@ See [DEPLOYMENT-GUIDE.md](DEPLOYMENT-GUIDE.md#troubleshooting) for more.
 
 ---
 
+## 📈 Project Impact
+
+### Problems Solved
+
+- Reduces manual resume screening effort
+- Improves candidate-job matching accuracy
+- Helps students identify missing skills
+- Streamlines campus recruitment workflows
+- Provides transparent candidate evaluation
+
+### Technical Achievements
+
+- Multi-Service Architecture
+- Cloud Deployment
+- AI-Based Resume Analysis
+- Database Integration
+- Authentication & Authorization
+- REST API Design
+- File Upload & Processing
+- Real-Time Candidate Evaluation
+
+---
+
+## 📌 Project Information
+
+### Project Type
+Full Stack AI-Powered Web Application
+
+### Domain
+Recruitment Technology (HR Tech)
+
+### Academic Program
+B.Tech – Artificial Intelligence and Data Science
+
+### Institution
+Vasireddy Venkatadri Institute of Technology (VVIT)
+
+### Deployment Infrastructure
+
+- Frontend: Render Static Site
+- Backend: Render Web Service
+- AI Service: Render Web Service
+- Database: MongoDB Atlas
+
+### Live Services
+
+- Frontend: https://ai-campus-recruitment-system.onrender.com
+- Backend: https://ai-campus-backend-g4i8.onrender.com
+- AI Service: https://ai-campus-ai-service.onrender.com
+
+---
+
 ## 🎓 Credits
 
 Built for VVIT Campus Recruitment
 
 **Technologies:**
-- Python (FastAPI, spaCy, sentence-transformers)
+- Python (FastAPI, pypdf, pdfplumber, rapidfuzz)
 - Node.js (Express, Mongoose)
 - React (Three.js, GSAP)
 - MongoDB Atlas
@@ -307,14 +470,94 @@ Built for VVIT Campus Recruitment
 
 **PRODUCTION-READY** ✅
 
-- Real AI-powered resume analysis with NLP
+- Frontend deployed on Render
+- Backend deployed on Render
+- AI Resume Analysis Service deployed on Render
+- MongoDB Atlas connected
+- Real AI-powered resume analysis
 - Deterministic scoring (no randomness)
 - Graceful degradation (AI service fallback)
 - Comprehensive error handling
 - End-to-end tested
 - Complete documentation
+- Public demo available
 
 **NO mocks. NO placeholders. Real AI.**
+
+---
+
+## 🤖 AI Resume Analysis Demo
+
+### Core AI Features
+
+- PDF Resume Parsing
+- DOCX Resume Parsing
+- Technical Skill Extraction
+- Soft Skill Detection
+- Job Match Scoring
+- Missing Skill Identification
+- Candidate Ranking
+- Resume Quality Assessment
+- Personalized Recommendations
+- Automated Applicant Evaluation
+
+---
+
+## 🎯 Use Cases
+
+### Educational Institutions
+- Campus placement automation
+- Student skill assessment
+- Placement analytics
+- Recruiter-student matching
+
+### Recruiters
+- AI-powered resume screening
+- Candidate ranking
+- Automated shortlisting
+- Recruitment workflow optimization
+
+### Students
+- Resume evaluation
+- Skill gap analysis
+- Job matching
+- Career readiness assessment
+
+---
+
+## 🚀 Public Demo Access
+
+The complete platform can be accessed using the live deployment:
+
+### Frontend Application
+https://ai-campus-recruitment-system.onrender.com
+
+### Backend API
+https://ai-campus-backend-g4i8.onrender.com
+
+### AI Resume Analysis Service
+https://ai-campus-ai-service.onrender.com
+
+No installation is required for reviewers, recruiters, faculty members, or evaluators.
+
+All backend services, AI services, and database connections are hosted in the cloud and remain accessible even when the developer's local machine is offline.
+
+---
+
+## 🔒 Deployment Security
+
+This repository is safe for public viewing.
+
+Sensitive information such as:
+
+- MongoDB credentials
+- JWT secrets
+- API keys
+- Email credentials
+- Deployment secrets
+- Environment variables
+
+are not stored in the repository and are managed securely through deployment environment variables.
 
 ---
 

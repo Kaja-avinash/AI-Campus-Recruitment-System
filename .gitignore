@@ -1,0 +1,59 @@
+# =========================
+# Environment Variables
+# =========================
+.env
+**/.env
+
+# Explicitly ignore env files
+backend/.env
+frontend/.env
+ai-service/.env
+
+# =========================
+# Node.js Dependencies
+# =========================
+node_modules/
+**/node_modules/
+
+# =========================
+# Python Virtual Environment
+# =========================
+venv/
+**/venv/
+
+# =========================
+# Python Cache
+# =========================
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+
+# =========================
+# React Build Files
+# =========================
+build/
+frontend/build/
+
+# =========================
+# Uploaded Files & Resumes
+# =========================
+backend/uploads/
+backend/uploads/resumes/
+
+# =========================
+# VS Code Settings
+# =========================
+.vscode/
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# Operating System Files
+# =========================
+.DS_Store
+Thumbs.db
